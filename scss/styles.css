@@ -19,4 +19,23 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
+#top_header {
+  padding: 1.5em 0; }
+  #top_header .logo {
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700; }
+    #top_header .logo span {
+      font-weight: 300;
+      color: #73e298; }
+  #top_header #main_nav {
+    float: right;
+    font-size: 0.9em;
+    padding: 1em; }
+  #top_header a {
+    color: #8b8b9f;
+    text-decoration: none;
+    margin-left: 1em; }
+
 /*# sourceMappingURL=styles.css.map */
