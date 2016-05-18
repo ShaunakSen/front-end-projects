@@ -4,6 +4,8 @@ $highlight: #73e298;
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html, body {
@@ -41,16 +43,53 @@ h1, h2, h3, h4, h5, h6 {
       color: $highlight;
     }
   }
-  #main_nav{
-    float:right;
+  #main_nav {
+    float: right;
     font-size: 0.9em;
-    padding: 1em;
+    padding-top: 1em;
+    a {
+      color: $secondary;
+      text-decoration: none;
+      margin-left: 1em;
+    }
   }
-  a
-  {
-    color: $secondary;
-    text-decoration: none;
-    margin-left: 1em;
+}
+
+#banner {
+  background: url("../images/banner_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 7.5em 0;
+  margin: 2.5em 0;
+  #banner_content_wrapper{
+    width:900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #poster{
+    width:275px;
+    position:relative;
+    float: left;
+    .featured_image{
+      width:100%;
+      max-width: 100%;
+      border-radius: .5em;
+      -webkit-box-shadow: 0 0 76px 0 rgba(0,0,0,0.47);
+      -moz-box-shadow: 0 0 76px 0 rgba(0,0,0,0.47);
+      box-shadow: 0 0 76px 0 rgba(0,0,0,0.47);
+    }
+    .play_button{
+      position: absolute;
+
+      left:50%;
+      top:50%;
+      margin:  -40px 0 0 -27px;
+      color: rgba(220,213,213,0.42);
+    }
   }
 }
 
