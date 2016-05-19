@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #newsletter{
+  margin-top: 3em;
   padding: 5em 0;
   text-align: center;
   background: #2a2a2e;
@@ -204,6 +205,38 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
         font-size: 0.9em;
         margin-top: 3em;
+      }
+    }
+  }
+}
+
+#main_footer{
+  padding: 2.5em 0;
+  text-align: center;
+  .logo {
+
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+    span {
+      font-weight: 300;
+      color: $highlight;
+    }
+  }
+  .copyright{
+    color: $secondary;
+    font-size: 0.75em;
+    margin:0;
+  }
+  .links{
+    display: inline;
+    a{
+      color: $secondary;
+      font-size: 0.75em;
+      text-decoration: none;
+      margin: 0 0.5em;
+      &:hover{
+        color: $highlight;
       }
     }
   }
