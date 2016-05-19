@@ -74,6 +74,31 @@ h1, h2, h3, h4, h5, h6 {
   #banner #content {
     float: left;
     width: 500px;
-    margin-left: 100px; }
+    margin-left: 100px;
+    font-weight: 700; }
+  #banner .title {
+    display: inline;
+    font-size: 2.75em;
+    color: #FFFFFF; }
+  #banner .ratings {
+    display: inline;
+    margin-left: 1em; }
+    #banner .ratings i {
+      color: #73e298;
+      font-size: 1.35em;
+      margin: 0 .15em; }
+    #banner .ratings .inactive {
+      color: #48494d; }
+  #banner .description {
+    color: #bbbebf;
+    font-size: 1em;
+    line-height: 2; }
+  #banner .info {
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 3em; }
+    #banner .info span {
+      margin: 0 .5em; }
 
 /*# sourceMappingURL=styles.css.map */
